@@ -129,5 +129,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', __DIR__ . '/' );
 }
 
+$url = "http://{$_SERVER['SERVER_NAME']}/about/";
+
+define('WP_HOME',       $url);
+define('WP_SITEURL',    $url);
+
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
