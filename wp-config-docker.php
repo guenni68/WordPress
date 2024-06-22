@@ -129,7 +129,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', __DIR__ . '/' );
 }
 
-$url = "http://{$_SERVER['SERVER_NAME']}/about/";
+$url = "http://{$_SERVER['SERVER_NAME']}/";
 
 define('WP_HOME',       $url);
 define('WP_SITEURL',    $url);
